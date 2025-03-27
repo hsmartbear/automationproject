@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project-Release-Build-Label-Platform - Web Test" verbose="0">
+	<test name="ClientRegistration TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ClientRegistrationTestSuite" />
+		</classes>
+	</test>
+	<test name="Project TestSuite-CreateProject" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Project-Release-Build-Label-Platform TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<exclude name="project_create"></exclude>
+					<!-- <exclude name="addBddConfigurationAndVerify"></exclude> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

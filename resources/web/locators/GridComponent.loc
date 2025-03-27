@@ -1,0 +1,22 @@
+column.list={"locator":"xpath=./thead//th[not(@hidden)]","desc":"List of column in grid","eArray":[{"name":"xpath=./thead//th","key":"key"}]}
+text.cloumn.list={"locator":"xpath=./thead//th//span[contains(@class,'text-overflow')]","desc":"Column list text","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=./thead//th//span[contains(@class,'text-overflow')]","key":"xpath"}]}
+checkbox.select.all.entity={"locator":"xpath=./thead//input[@type='checkbox']","desc":"Select all entity checkbox","eArray":[{"name":"xpath=./thead//input[@type='checkbox']","key":"xpath"}]}
+checkboxes.selected.entities={"locator":"xpath=./tbody//input[@type='checkbox']","desc":"Selected entities checkboxes","eArray":[{"name":"xpath=./tbody//input[@type='checkbox']","key":"xpath"}]}
+
+table.initial.count.label={"locator":"xpath=./parent::*/following-sibling::*//*[contains(@class,'inline vmiddle total-item-count')]/strong[1]","desc":"Initial count label","eArray":[{"name":"xpath=./parent::*/following-sibling::*//*[contains(@class,'inline vmiddle total-item-count')]/strong[1]","key":"xpath"}]}
+table.total.count.label={"locator":"xpath=./parent::*/following-sibling::*//*[contains(@class,'inline vmiddle total-item-count')]/strong[3]","desc":"total count label","eArray":[{"name":"xpath=./parent::*/following-sibling::*//*[contains(@class,'inline vmiddle total-item-count')]/strong[3]","key":"xpath"}]}
+table.page.limit.count.label={"locator":"xpath=./parent::*/following-sibling::*//*[contains(@class,'inline vmiddle total-item-count')]/strong[2]","desc":"page limit count label","eArray":[{"name":"xpath=./parent::*/following-sibling::*//*[contains(@class,'inline vmiddle total-item-count')]/strong[2]","key":"xpath"}]}
+table.button.last.page={"locator":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-last page-item')]/a","desc":"Last page Button","eArray":[{"name":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-last page-item')]/a","key":"xpath"}]}
+table.button.next.page={"locator":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-next page-item')]/a","desc":"Next page Button","eArray":[{"name":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-next page-item')]/a","key":"xpath"}]}
+table.button.previous.page={"locator":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-prev page-item')]/a","desc":"Previous page Button","eArray":[{"name":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-prev page-item')]/a","key":"xpath"}]}
+table.button.first.page={"locator":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-first page-item')]/a","desc":"First page Button","eArray":[{"name":"xpath=./parent::*/following-sibling::*//*[contains(@class,'pagination-first page-item')]/a","key":"xpath"}]}
+column.list.dt={"locator":"xpath=.//datatable-header//datatable-header-cell/div/span[@title]","desc":"List of column in grid"}
+raw.list={"locator":"xpath=./tbody//tr","desc":"List of raw in grid"}
+column.list.param.link.table={"locator":"xpath=./thead//th","desc":"Column list of param link table"}
+column.list.with.hidden.field={"locator":"xpath=./thead//th","desc":"List of column in grid"}
+column.list.param.link.table={"locator":"xpath=./thead//th","desc":"Column list of param link table"}
+column.list.with.title.attribute={"locator":"xpath=./thead//th[@title]","desc":"List of column in grid","eArray":[{"name":"xpath=./thead//th[@title]","key":"key"}]}
+report.column.list={"locator":"xpath=.//datatable-header-cell//*[@title]","desc":"List of column in grid","eArray":[{"name":"xpath=.//datatable-header-cell//*[@title]","key":"key"}]}
+column.list.param.link.table={"locator":"xpath=./thead//th","desc":"Column list of param link table"}
+edit.issue.jira.field.column.list={"locator":"xpath=./thead//th[not(@colspan)]//*[contains(@class,'text-overflow')]","desc":"List of column in grid","eArray":[{"name":"xpath=./thead//th[not(@colspan)]//*[contains(@class,'text-overflow')]","key":"key"}]}
+edit.requirement.jira.field.column.list={"locator":"xpath=./thead//th//div[contains(@class,'text-overflow')]","desc":"List of column in grid","eArray":[{"name":"xpath=./thead//th[not(@colspan)]//*[contains(@class,'text-overflow')]","key":"key"}]}

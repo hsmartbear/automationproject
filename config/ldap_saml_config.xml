@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LDAP-SAML Testsuite" verbose="0">
+	<test name="Ldap-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LdapSamlTestSuite">
+				<methods>
+					<include name="ldap_test_save"/>
+					<include name="ldap_remove"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="SAML-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LdapSamlTestSuite">
+				<methods>
+					<include name="SaveSAMLAndVerify"/>
+					<include name="RemoveSAMLAndVerify"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

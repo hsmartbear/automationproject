@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Customization - Web Test" verbose="0">
+	<test name="ClientRegistration TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ClientRegistrationTestSuite" />
+		</classes>
+	</test>
+	<test name="Project TestSuite-CreateProject" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RoleTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RoleTestSuite"></class>
+		</classes>
+	</test>
+	<test name="ExecutionStatusTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ExecutionStatusTestSuite"></class>
+		</classes>
+	</test>
+	<test name="ListsTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ListsTestSuite"></class>
+		</classes>
+	</test>
+	<test name="ManageFieldTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ManageFieldTestSuite"></class>
+		</classes>
+	</test>
+	<test name="NotificationsTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.NotificationsTestSuite"></class>
+		</classes>
+	</test>
+	<test name="UserTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.UserTestSuite"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+icon.schedulerTask={"locator":"xpath=(.//*[@title='Scheduled Task'])[1]","desc":"Scheduler Task icon","eArray":[{"name":"xpath=(.//*[@title='Scheduled Task'])[1]","key":"key"}]}
+icon.bell={"locator":"xpath=.//*[contains(@class,'bell')]","desc":"Bell Icon","eArray":[{"name":"xpath=.//*[contains(@class,'bell')]","key":"key"}]}
+icon.comments={"locator":"xpath=.//*[contains(@class,'comments')]","desc":"Comments Icon","eArray":[{"name":"xpath=.//*[contains(@class,'comments')]","key":"key"}]}
+icon.help={"locator":"xpath=.//*[@title='Help']","desc":"Help Icon","eArray":[{"name":"xpath=.//*[@title='Help']","key":"key"}]}
+logo.qtmProfessional={"locator":"xpath=.//*[contains(@src,'QTM_dark.svg') and @alt='QMetry Professional']","desc":"Qmetry logo","eArray":[{"name":"xpath=.//*[contains(@src,'QTM_dark.svg') and @alt='QMetry Professional']","key":"key"}]}
+#icon.bars={"locator":"xpath=.//*[contains(@class,'bars')]","desc":"Bar Icon","eArray":[{"name":"xpath=.//*[contains(@class,'bars')]","key":"key"}]}
+icon.bars={"locator":"xpath=.//*[contains(@class,'icon-menu') and @role='presentation']","desc":"Bar Icon","eArray":[{"name":"xpath=.//*[contains(@class,'icon-menu') and @role='presentation']","key":"key"}]}
+input.searchBox={"locator":"xpath=.//*[@id='search']","desc":"Serach Box","eArray":[{"name":"xpath=.//*[@id='search']","key":"key"}]}
+link.profile.dropdown.closed={"locator":"xpath=//*[contains(@class,'user-name')]//ancestor::a[@aria-expanded='false']","desc":"Profile dropdown closed","eArray":[{"name":"xpath=//*[contains(@class,'user-name')]//ancestor::a[@aria-expanded='false']","key":"key"}]}
+link.profile.dropdown.opened={"locator":"xpath=//*[contains(@class,'user-name')]//ancestor::a[@aria-expanded='true']","desc":"Profile dropdown opened","eArray":[{"name":"xpath=//*[contains(@class,'user-name')]//ancestor::a[@aria-expanded='true']","key":"key"}]}
+span.text.username={"locator":"xpath=.//*[contains(@class,'user-name')]","desc":"User name display","eArray":[{"name":"xpath=.//*[contains(@class,'user-name')]","key":"key"}]}
+project.dropdown={"locator":"xpath=.//p-multiselect[@name='globalSelectedProject']","desc":"Project dropdown","eArray":[{"name":"xpath=.//p-multiselect[@name='globalSelectedProject']","key":"key"}]}
+input.project.search={"locator":"xpath=.//input[contains(@class,'multiselect')]","desc":"Project search text box","eArray":[{"name":"xpath=.//button[contains(@class,'dropdown')]/following-sibling::ul//input","key":"key"},{"name":"xpath=.//input[contains(@class,'multiselect')]","key":"xpath"}]}

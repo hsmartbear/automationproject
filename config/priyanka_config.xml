@@ -1,0 +1,440 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Priyanka_TestSuite" verbose="0" > 
+	<test name="Project TestSuite-CreateProject" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1275" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_2.QPA_TC_1275">
+				<methods>
+					<exclude name="entityKey_filter_for_All_module" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="8.12.2" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_2.QPA_TC_1285">
+				<methods>
+					 <include name="ts_archive" />
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	<test name="8.12.3.testcases" enabled = "false" >
+		<classes>
+			<class name ="com.qmetry.tests.development.priyanka.Release_8_12_3.release_8_12_3">
+				<methods>
+					 <include name = "export_test_execution_details_as_pdf_and_word"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1280" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_2.QPA_TC_1280">
+				<methods>
+					<!-- <include name="step_17_18_19" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1301" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_13_0.QPA_TC_1301">
+				<methods>
+					<!-- <include name="tc_color_indication_of_mapped_DP_with_Esignature" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1356" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_13_0.QPA_TC_1356">
+				<methods>
+					<!-- <include name="tc_left_menu_panel" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1257" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_0.QPA_TC_1257">
+				 <!-- <methods> 
+					 <include name="step3_4_5" />
+				  </methods>  -->
+			</class>
+		</classes>
+	</test>
+
+<test name="QPA_TC_1259" enabled="false">
+	<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_0.QPA_TC_1259">
+				 <methods> 
+					 <include name="tc_1259_step_19" />
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1261" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_0.QPA_TC_1261">
+				 <methods> 
+					 <!-- <include name="tc_AWF_enabled_verify_for_review_approve_close" /> -->
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1303" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_13_0.QPA_TC_1303">
+				 <methods> 
+					 <!-- <include name ="jira_verify_authenticate_window_before_create_entity"/> -->
+					 <!-- <include name="jira_verify_authenticate_window_before_create_entity" /> -->
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1300" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_13_0.QPA_TC_1300">
+				 <methods> 
+					 <!-- <include name ="jira_verify_authenticate_window_before_create_entity"/> -->
+					 <!-- <include name="executionStatus_create_edit_archive_unarchive" /> -->
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	
+
+	<test name="QPA_TC_1358d" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_13_0.QPA_TC_1358">
+				
+				 <methods> 
+					 <!-- <include name ="test_case_step_add_delete_attachment"/> -->
+					 <!-- <include name="executionStatus_create_edit_archive_unarchive" /> -->
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1397" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1397">
+				
+				 <methods> 
+					 <!-- <include name ="rq_jira_configure_authenticate_integration"/> -->
+					 <!-- <include name="executionStatus_create_edit_archive_unarchive" /> -->
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1379" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1379">
+				<methods>
+					<!-- <include name ="tc_1379_archive_clone_folder_and_verify_expanded_folder_at_RQ"/> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1383" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1383">
+				<methods>
+					<!-- <include name ="tracebility_report_with_arrange_column_change_at_execution"/> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1384" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1384">
+				<methods>
+					<!-- <include name ="rq_is_verify_jira_sub_issue_type"/> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1390" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1390">
+				<methods>
+					<!-- <include name ="rq_is_verify_jira_sub_issue_type"/> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1391" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1391">
+				<methods>
+					<!-- <include name ="tc_folder_count"/> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1394" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1394">
+				<methods>
+					<!-- <include name ="tc_folder_count"/> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1397" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1397">
+				<methods>
+					<!-- <include name ="tc_folder_count"/> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	
+
+
+	<test name="QPA_TC_1305" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_13_0.QPA_TC_1305">
+				
+				 <methods> 
+					 <include name ="tc_add_delete_attachment"/>
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="ModuleWise_RQ" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.ModuleWise.Requirement_module">
+				 <methods> 
+					 <!-- <include name ="jira_verify_authenticate_window_before_create_entity"/> -->
+					 <include name="rq_jira_configure_authenticate_integration" />
+					 <include name ="QPA_TC_394"/>
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1379" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1379">
+				
+				 <methods> 
+					 <include name ="tc_1379_with_RQ"/>
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1384" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1384">
+				
+				 <methods> 
+					 <include name ="rq_sorting_at_subtask_issues"/>
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1244" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_1.QPA_TC_1244">
+				
+				 <methods> 
+					 <!-- <include name ="tc_1379_with_RQ"/> -->
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1268" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_12_1.QPA_TC_1268">
+				
+				 <methods> 
+					 <include name ="tc_arrange_column_with_udf_step_2_to_12"/>
+					 <include name ="tc_arrange_udf_columns"/>
+					 <include name ="tc_detail_tab"/>
+					 <include name ="tc_import"/>
+					 <include name ="tc_step_2_to_12"/>
+
+					 
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1394" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1394">
+				
+				 <methods> 
+					 <!-- <include name ="integrate_jira_project_with_subtask_for_reports"/> -->
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1391" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1391">
+				
+				 <methods> 
+					 <include name ="ts_copy_folder_count"/>
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1383" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1383">
+				
+				 <methods> 
+					 <include name ="tracebility_report_with_arrange_column_change_at_execution"/>
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	<test name="QPA_TC_1390" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.release_8_14_15.QPA_TC_1390">
+				
+				 <methods> 
+					<!-- <include name ="udf_create_update_delete"/> -->
+					 <include name ="udf_default_field_column"/>
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+
+	
+	<test name="TestCase_module" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.ModuleWise.TestCase_module">
+				 <methods> 
+					 <!-- <include name ="ts_1145_copy_testSuite"/>
+					 <include name="ts_1018_select_release_cycle_at_copy_ts" /> 
+					 <include name ="tc_1055_create_test_suite_from_test_case"/>
+					 <include name ="tc_1055_create_test_suite_from_test_case"/>
+					 <include name ="Ts_968_import_testSuite"/>
+					 <include name ="Ts_1119_testSuite_combined_view"/> -->
+
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+	
+	<test name="TestSuite_module" enabled="true">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.ModuleWise.TestSuite_module">
+				 <methods> 
+					 <include name ="ts_705_filter_platform_while_linking_to_ts"/>
+					 <!-- <include name="ts_1018_select_release_cycle_at_copy_ts" /> 
+					 <include name ="tc_1055_create_test_suite_from_test_case"/>
+					 <include name ="tc_1055_create_test_suite_from_test_case"/>
+					 <include name ="Ts_968_import_testSuite"/>
+					 <include name ="Ts_1119_testSuite_combined_view"/> -->
+
+				  </methods> 
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QPA_TC_1467" enabled="false">
+		<classes>
+			<class
+				name="com.qmetry.tests.development.priyanka.Release_8_17_1.QPA_TC_1467">
+				<methods>
+					<include name="qpa_tc_1467_tc" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+	
+
+	
+	
+
+
+	
+	
+</suite>

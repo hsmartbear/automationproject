@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testcase - Web Test" verbose="0">
+	<test name="ClientRegistration TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ClientRegistrationTestSuite" />
+		</classes>
+	</test>
+	<test name="Project TestSuite-CreateProject" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Testcase TestSuite-Import" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestCaseTestSuite">
+				<methods>
+					<include name="tc_import" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Testcase TestSuite-Export" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestCaseTestSuite">
+				<methods>
+					<include name="tc_export" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Testcase TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestCaseTestSuite">
+				<methods>
+					<exclude name="tc_import"></exclude>
+					<exclude name="tc_export"></exclude>
+				</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="Data parameter" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.DataGridTestSuite">
+				<methods>
+					<include name="dataParameter_create_archive_unarchive_delete"></include>
+					<include name="dg_create_edit_parameter"></include>
+				</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="Datagrid" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.DataGridTestSuite">
+				<methods>
+					<include name="datagrid_create_archive_unarchive_delete"></include>
+					<include name="dg_create_edit_data_grid"></include>
+				</methods>
+				</class>
+		</classes>
+	</test>
+</suite>

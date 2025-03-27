@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Integration - Web Test" verbose="0">
+	<test name="Integration TestSuite-JIRA" enabled="false">
+		<groups>
+			<run>
+				<include name="jira"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite">
+			</class>
+		</classes>
+	</test>
+	<test name="Integration TestSuite-Azure" enabled="true">
+		<groups>
+			<run>
+				<include name="azure"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite">
+			</class>
+		</classes>
+	</test>
+	<test name="Integration TestSuite-Rally" enabled="true">
+		<groups>
+			<run>
+				<include name="rally"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite">
+			</class>
+		</classes>
+	</test>
+</suite>

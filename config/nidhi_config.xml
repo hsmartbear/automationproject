@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nidhi - Web Test" verbose="0">
+	<test name="NidhiTestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.development.NidhiTestSuite"></class>
+		</classes>
+	</test>
+</suite>

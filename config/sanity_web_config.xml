@@ -1,0 +1,284 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Tests" verbose="0" preserve-order="true">
+
+	 <test name="Integration TestSuite-JIRA" enabled="true">
+		<groups>
+			<run>
+				<include name="jira"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite">
+			</class>
+		</classes>
+	</test>
+	<test name="Integration TestSuite-Azure" enabled="true">
+		<groups>
+			<run>
+				<include name="azure"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite">
+			</class>
+		</classes>
+	</test>
+	<test name="Integration TestSuite-Rally" enabled="true">
+		<groups>
+			<run>
+				<include name="rally"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Project TestSuite-CreateProject - Issue" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Issue TestSuite" enabled="true">
+		<classes>
+			 <class name="com.qmetry.tests.web.sanity.IssueTestSuite">
+			</class> 
+		</classes>
+	</test>
+
+	 <test name="Project TestSuite-CreateProject- Test Suite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TestSuite TestSuite" enabled="true">
+		<classes>
+			 <class name="com.qmetry.tests.web.sanity.TestSuiteTestSuite">
+			</class> 
+		</classes>
+	</test>
+
+	<test name="Project TestSuite-CreateProject- Test case" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TestCase TestSuite" enabled="true">
+		<classes>
+			 <class name="com.qmetry.tests.web.sanity.TestCaseTestSuite">
+			</class> 
+		</classes>
+	</test>
+
+	<test name="Data parameter" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.DataGridTestSuite">
+				<methods>
+					<include name="dataParameter_create_archive_unarchive_delete"></include>
+					<include name="dg_create_edit_parameter"></include>
+				</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="Datagrid" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.DataGridTestSuite">
+				<methods>
+					<include name="datagrid_create_archive_unarchive_delete"></include>
+					<include name="dg_create_edit_data_grid"></include>
+				</methods>
+				</class>
+		</classes>
+	</test> 
+
+	<test name="Project TestSuite-CreateProject - Requirement" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Requirement TestSuite" enabled="true">
+		<classes>
+			 <class name="com.qmetry.tests.web.sanity.RequirementTestSuite">
+			</class> 
+		</classes>
+	</test> 
+
+	<test name="CreateProject - Qmetry system reports TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Qmetry system reports TestSuite" enabled="true">
+		<classes>
+			 <class name="com.qmetry.tests.web.sanity.QmetrySystemReportsTestSuite">
+			</class> 
+		</classes>
+	</test>
+
+	<test name="Esign workflow TestSuite" enabled="true">
+		<classes>
+			 <class name="com.qmetry.tests.web.sanity.ApproverAccessTestSuite">
+			</class> 
+		</classes>
+	</test>
+
+	<test name="CreateProject - Project-Release-Build-Label-Platform TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Project-Release-Build-Label-Platform TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<exclude name="project_create"></exclude>
+					<!-- <exclude name="addBddConfigurationAndVerify"></exclude> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Custom Dashboard TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.CustomDashboardTestSuite">
+			 <!--  <methods>
+					<include name="schedule_dashboard" />
+					<include name="create_and_share_dashboard" />
+				</methods> --></class>
+		</classes>
+	</test>
+	<test name="Project TestSuite-CreateProject-CustomGadgetTestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test name="InsightTestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.QmetryInsightTestSuite">
+				<methods>
+				<include name="qmetry_insight_advanced_query_report" />	
+				</methods>
+			</class>
+		</classes>
+	</test> 
+    <test name="CustomGadgetTestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.QmetryInsightTestSuite">
+				<methods>
+					<exclude name = "qmetry_insight_advanced_query_report"/>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+	<test name="Project TestSuite-CreateProject-CustomizationTestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.webservice.TestDataSetupTestSuite">
+				<methods>
+					<include name="clear_data_properties" />
+				</methods>
+			</class>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="RoleTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RoleTestSuite"></class>
+		</classes>
+	</test>
+	<test name="ExecutionStatusTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ExecutionStatusTestSuite"></class>
+		</classes>
+	</test>
+	<test name="ListsTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ListsTestSuite"></class>
+		</classes>
+	</test>
+	<test name="NotificationsTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.NotificationsTestSuite"></class>
+		</classes>
+	</test>
+	<test name="UserTestSuite TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.UserTestSuite"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Requirement - Web Test" verbose="0">
+	<test name="Project TestSuite-CreateProject" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RequirementTestSuite-Import" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RequirementTestSuite">
+				<methods>
+					<include name="rq_import" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RequirementTestSuite-Export" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RequirementTestSuite">
+				<methods>
+					<include name="rq_export" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RequirementTestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RequirementTestSuite">
+				<methods>
+					<exclude name="rq_import"></exclude>
+					<exclude name="rq_export"></exclude>
+				</methods>
+				</class>
+		</classes>
+	</test>
+</suite>

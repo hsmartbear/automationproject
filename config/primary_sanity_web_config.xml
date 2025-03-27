@@ -1,0 +1,141 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Primary Test" verbose="0">
+	
+	<test name="ClientRegistration-TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ClientRegistrationTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Login-TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LoginTestSuite"></class>
+		</classes>
+	</test>
+
+	<test name="ProjectTestSuite-CreateProject" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Project-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="release_create_archive_unarchive_delete" />
+					<include name="cycle_create_archive_unarchive_delete" />
+					<include name="build_create_archive_unarchive" />
+					<include name="addBddConfigurationAndVerify" />
+					<include name="platform_create_archive_unarchive_delete" />
+					<include name="label_create_archive_unarchive_delete" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="ExecutionStatus-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ExecutionStatusTestSuite"/>
+		</classes>
+	</test>
+
+	<test name="ManageField-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ManageFieldTestSuite"></class>
+		</classes>
+	</test>
+
+	<test name="Requirement-TestSuite" enabled="true">
+		<groups>
+			<run>
+				<include name="sanity-primary"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RequirementTestSuite"/>
+		</classes>
+	</test>
+	
+	<test name="Testcase-TestSuite" enabled="true">
+		<groups>
+			<run>
+				<include name="sanity-primary"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestCaseTestSuite"/>
+		</classes>
+	</test>
+	
+	<test name="Issue-TestSuite" enabled="true">
+		<groups>
+			<run>
+				<include name="sanity-primary"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IssueTestSuite"/>
+		</classes>
+	</test>
+
+	<test name="Datagrid-TestSuite" enabled="true">
+		<groups>
+			<run>
+				<include name="sanity-primary"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.DataGridTestSuite"/>
+		</classes>
+	</test>
+
+	<test name="User-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.UserTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Role-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RoleTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Integration-TestSuite" enabled="true">
+		<groups>
+			<run>
+				<include name="sanity-primary"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Ldap-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LdapSamlTestSuite">
+				<methods>
+					<include name="ldap_test_save"/>
+					<include name="ldap_remove"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="SAML-TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LdapSamlTestSuite">
+				<methods>
+					<include name="SaveSAMLAndVerify"/>
+					<include name="RemoveSAMLAndVerify"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

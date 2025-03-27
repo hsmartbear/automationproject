@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testsuite - Web Test" verbose="0">
+	<test name="ClientRegistration TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ClientRegistrationTestSuite" />
+		</classes>
+	</test>
+	<test name="Project TestSuite-CreateProject" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Qmetry system reports TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.QmetrySystemReportsTestSuite"></class>
+		</classes>
+	</test>
+</suite>

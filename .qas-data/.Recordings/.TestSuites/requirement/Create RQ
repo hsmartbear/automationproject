@@ -1,0 +1,28 @@
+{
+    "steps": [
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "POST.rest.requirements",
+            "status": "NotRun",
+            "elementKey": "POST.rest.requirements",
+            "elementDesc": "",
+            "indexColumn": ""
+        }
+    ],
+    "type": "webservice",
+    "capabilities": {
+        "type": "webservice",
+        "apiUrl": "https://testmanagement.qmetry.com/",
+        "baseUrl": "https://testmanagement.qmetry.com/"
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "dbDetails": {},
+    "recordSessionType": "multiple",
+    "tags": [],
+    "shared": false,
+    "executionStatus": "NotRun"
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login - Web Test" verbose="0">
+	<test name="Login TestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LoginTestSuite"/>
+		</classes>
+	</test>
+</suite>

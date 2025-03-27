@@ -1,0 +1,22 @@
+{
+    "additionalFields": {
+        "web": {
+            "baseurl": "https://testmanagement.qmetry.com/"
+        },
+        "webservice": {
+            "baseurl": "https://testmanagement.qmetry.com/"
+        }
+    },
+    "framework": "testng",
+    "language": "java",
+    "projectSettings": {
+        "projectName": "QTMUIAutomation",
+        "projectPath": "d:\\QMetryQEServices\\QTMUIAutomation"
+    },
+    "projectTypes": [
+        "web",
+        "webservice"
+    ],
+    "key": "VoGMdS6ysgGrTY2R7Dk/AH6ZeZRgb7Nt14rmdRizlcHjH3QbWFEBA07/GRF3ywdOafEhDEtpOY7gZRDDKwy5aEnLCJoyaDWYvw8d9A5Z9qs=",
+    "shareable": "sharedFunction"
+}

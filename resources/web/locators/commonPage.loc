@@ -1,0 +1,307 @@
+button.new={"locator":"xpath=.//button[text()='New' and contains(@title,'Create')]","desc":"'New' Button","eArray":[{"name":"xpath=.//button[text()='New' and contains(@title,'Create')]","key":"key"}]}
+header={"locator":"xpath=.//header","desc":"Header","eArray":[{"name":"xpath=.//header","key":"key"}]}
+sidebar={"locator":"xpath=.//sidebar","desc":"Sidebar Panel","eArray":[{"name":"xpath=.//sidebar","key":"key"}]}
+sidebar.closed={"locator":"xpath=.//*[@id='wrapper' and contains(@class,'closed')]","desc":"Sidebar closed","eArray":[{"name":"xpath=.//*[@id='wrapper' and contains(@class,'closed')]","key":"key"}]}
+sidebar.opened={"locator":"xpath=.//*[@id='wrapper' and not(contains(@class,'closed'))]","desc":"Sidebar Opened","eArray":[{"name":"xpath=.//*[@id='wrapper' and not(contains(@class,'closed'))]","key":"key"}]}
+table={"locator":"xpath=.//table","desc":"table section","eArray":[{"name":"xpath=.//table","key":"key"}]}
+button.filter={"locator":"xpath=.//*[contains(@class,'cell left-controls')]//*[contains(@class,'fa fa-filter')]/parent::div[@title]","desc":"Filter button","eArray":[{"name":"xpath=.//*[contains(@class,'cell left-controls')]//*[contains(@class,'fa fa-filter')]","key":"key"},{"name":"xpath=.//*[contains(@class,'cell left-controls')]//*[contains(@class,'fa fa-filter')]/parent::div[@title]","key":"xpath"}]}
+filter={"locator":"xpath=.//section[contains(@class,'move-div')]","desc":"Filter section","eArray":[{"name":"xpath=.//section[contains(@class,'move-div')]","key":"key"}]}
+link.test.case.table={"locator":"xpath=.//*[text()[normalize-space() = 'Link Test Cases']]/parent::div/following-sibling::*//table","desc":"link test case table","eArray":[{"name":"xpath=.//*[text()[normalize-space() = 'Link Test Cases']]/parent::div/following-sibling::*//table","key":"key"}]}
+link.platform.table={"locator":"xpath=.//*[contains(@class,'table platform')]//table","desc":"Link platform table","eArray":[{"name":"xpath=.//*[contains(@class,'table platform')]//table","key":"key"}]}
+folder.component={"locator":"xpath=.//*[contains(@class,'upper-tree-container')]","desc":"Folder section","eArray":[{"name":"xpath=.//*[contains(@class,'upper-tree-container')]","key":"key"}]}
+button.folder={"locator":"xpath=.//*[contains(@class,'cell left-controls')]//*[contains(@class,'fa fa-folder')]/parent::div[@title]","desc":"Folder button","eArray":[{"name":"xpath=.//*[contains(@class,'cell left-controls')]//*[contains(@class,'fa fa-folder')]","key":"key"}]}
+button.create.new.folder={"locator":"xpath=.//*[@title='Create New Folder']","desc":"Create new folder button","eArray":[{"name":"xpath=.//*[@title='Create New Folder']","key":"key"}]}
+input.folder.name={"locator":"xpath=.//*[@name='folderName']","desc":"Folder name text box","eArray":[{"name":"xpath=.//*[@name='folderName']","key":"key"}]}
+button.create.folder={"locator":"xpath=.//*[text()='Create']","desc":"Create folder button","eArray":[{"name":"xpath=.//*[text()='Create']","key":"key"}]}
+button.next={"locator":"xpath=.//*[text()[normalize-space() = 'Next']]","desc":"Next button","eArray":[{"name":"xpath=.//*[text()[normalize-space() = 'Next']]","key":"key"}]}
+button.clone={"locator":"xpath=.//*[text()='Clone']","desc":"Clone button","eArray":[{"name":"xpath=.//*[text()='Clone']","key":"key"}]}
+dropdown.main.option={"locator":"xpath=.//*[contains(@class,'tooltip')]//*[@title='Options']","desc":"Main options dropdown","eArray":[{"name":"xpath=.//*[contains(@class,'tooltip')]//*[@title='Options']","key":"key"}]}
+button.go.back={"locator":"xpath=.//*[text()[normalize-space() = 'Go Back']]","desc":"Go back button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[text()[normalize-space() = 'Go Back']]","key":"xpath"}]}
+button.go.to.scheduled.tasks={"locator":"xpath=.//*[text()[normalize-space() = 'Go to Scheduled Tasks']]","desc":"Go to Scheduled Tasks button","eArray":[{"name":"xpath=.//*[text()[normalize-space() = 'Go to Scheduled Tasks']]","key":"key"}]}
+message.bulk.operation={"locator":"xpath=.//*[contains(@class,'toast-message')]","desc":"Bulk operation message","eArray":[{"name":"xpath=.//*[contains(@class,'toast-message')]","key":"key"}]}
+scheduled.task.activity={"locator":"xpath=(//*[text()='Activity'])[2]/following-sibling::span","desc":"Scheduled task activity","eArray":[{"name":"xpath=(//*[text()='Activity'])[2]/following-sibling::span","key":"key"}]}
+button.yes={"locator":"xpath=.//button[text()[normalize-space() = 'Yes']]","desc":"Yes button","eArray":[{"name":"xpath=.//button[text()[normalize-space() = 'Yes']]","key":"key"}]}
+button.close={"locator":"xpath=.//*[text()[normalize-space() = 'Close']]","desc":"Close button","eArray":[{"name":"xpath=.//*[text()[normalize-space() = 'Close']]","key":"key"}]}
+text.my.dashboard={"locator":"xpath=.//div[text()='My Dashboard']","desc":"My dashboard text","eArray":[{"name":"xpath=.//div[text()='My Dashboard']","key":"key"}]}
+button.close.message={"locator":"xpath=.//*[contains(@class,'toast-close-button')]","desc":"Close message button","eArray":[{"name":"xpath=.//*[contains(@class,'toast-close-button')]","key":"key"}]}
+button.refresh={"locator":"xpath=.//*[@title='Refresh' and not(@hidden)]","desc":"Refresh button","eArray":[{"name":"xpath=.//*[@title='Refresh' and not(@hidden)]","key":"key"}]}
+text.entity.count={"locator":"xpath=.//*[contains(@class,'total-item-count')]","desc":"Entity count text","eArray":[{"name":"xpath=.//*[contains(@class,'total-item-count')]","key":"key"}]}
+button.yes.logout={"locator":"xpath=.//*[text()='Log out']/following-sibling::div[contains(@class,'actions')]/*[text()='Yes']","desc":"Yes logout button","eArray":[{"name":"xpath=.//*[text()='Log out']/following-sibling::div[contains(@class,'actions')]/*[text()='Yes']","key":"key"}]}
+button.edit.folder={"locator":"xpath=.//*[@title='Edit']","desc":"Edit folder button","eArray":[{"name":"xpath=.//*[@title='Edit']","key":"key"}]}
+button.archive.folder={"locator":"xpath=.//*[@title='Archive']","desc":"Archive folder button","eArray":[{"name":"xpath=.//*[@title='Archive']","key":"key"}]}
+button.unarchive.folder={"locator":"xpath=.//*[@title='Unarchive']","desc":"Unarchive folder button","eArray":[{"name":"xpath=.//*[@title='Unarchive']","key":"key"}]}
+button.update.folder={"locator":"xpath=.//*[text()='Update']","desc":"Update folder button","eArray":[{"name":"xpath=.//*[text()='Update']","key":"key"}]}
+text.no.records.available={"locator":"xpath=.//*[normalize-space(text())='No records available.']","desc":"No records available.","eArray":[{"name":"xpath=.//*[text()='No records available.']","key":"xpath"},{"name":"xpath=.//*[normalize-space(text())='No records available.']","key":"xpath"}]}
+table.loader={"locator":"xpath=(.//*[contains(@class,'show-horizontal-bar')]//preceding-sibling::loader)[1]","desc":" Table loader","eArray":[{"name":"xpath=(.//*[contains(@class,'show-horizontal-bar')]//preceding-sibling::loader)[1]","key":"xpath"}]}
+text.no.data.available={"locator":"xpath=.//*[text()='No Data Available']","desc":"No data available text","eArray":[{"name":"xpath=.//*[text()='No Data Available']","key":"key"}]}
+button.add.comment={"locator":"xpath=.//*[text()='Add Comment'] | //*[text()='Comment']","desc":"Add comment button","eArray":[{"name":"xpath=.//*[text()='Add Comment']","key":"key"},{"name":"xpath=.//*[text()='Add Comment'] | //*[text()='Comment']","key":"xpath"}]}
+input.comment={"locator":"xpath=.//textarea | .//*[contains(@class,'textarea')]","desc":"Comment text box","eArray":[{"name":"xpath=.//textarea | .//*[contains(@class,'textarea')]","key":"key"}]}
+button.check.comment={"locator":"xpath=.//textarea/following-sibling::div//*[contains(@class,'check')]/parent::button | (.//*[contains(@class,'check')]/parent::button)[2]","desc":"Check comment button","eArray":[{"name":"xpath=.//textarea/following-sibling::div//*[contains(@class,'check')]/parent::button | (.//*[contains(@class,'check')]/parent::button)[2]","key":"key"}]}
+button.add.attachment={"locator":"xpath=.//*[text()='Add Attachment(s)']/parent::button | .//*[text()='Add Attachment']/parent::button","desc":"Add attachment button","eArray":[{"name":"xpath=.//*[text()='Add Attachment(s)']/parent::button","key":"key"}]}
+input.select.file={"locator":"xpath=.//input[@id='select-file' or @id='uploadAttachment' or @id='files']","desc":"Select file text box","eArray":[{"name":"xpath=.//input[@id='select-file' or @id='uploadAttachment']","key":"key"}]}
+button.add.file={"locator":"xpath=.//button[text()='Add']","desc":"Add file button","eArray":[{"name":"xpath=.//button[text()='Add']","key":"key"}]}
+button.arrange.column={"locator":"xpath=.//div[@title='Arrange Columns']/img","desc":"Arrange column button","eArray":[{"name":"xpath=.//div[@title='Arrange Columns']/img","key":"key"}]}
+button.save.arrange.columns={"locator":"xpath=.//button[text()='Save']","desc":"save arrange column button","eArray":[{"name":"xpath=.//button[text()='Save']","key":"key"}]}
+button.restore.default.columns={"locator":"xpath=.//*[text()='Restore Defaults']","desc":"Restore default column button","eArray":[{"name":"xpath=.//*[text()='Restore Defaults']","key":"key"}]}
+check.arrange.column={"locator":"xpath=.//div[@title='Arrange Columns']","desc":"Arrange column check","eArray":[{"name":"xpath=.//div[@title='Arrange Columns']","key":"key"}]}
+editable.input={"locator":"xpath=.//input[@isallowblank='false']","desc":"Editable text box","eArray":[{"name":"xpath=.//input[@isallowblank='false']","key":"key"}]}
+code.open.api.key.span={"locator":"xpath=.//*[@id='apiKey']","desc":"Open APi Key","eArray":[{"name":"xpath=.//*[@id='apiKey']","key":"xpath"}]}
+button.delete.folder={"locator":"xpath=.//*[@title='Delete']","desc":"Delete folder button","eArray":[{"name":"xpath=.//*[@title='Delete']","key":"key"}]}
+detail.view.loader={"locator":"xpath=.//loader[contains(@class,'detail-view-loader')]","desc":"Detail view loader","eArray":[{"name":"xpath=.//loader[contains(@class,'detail-view-loader')]","key":"key"}]}
+button.archive.selected.version={"locator":"xpath=.//*[contains(text(),'Archive Selected')]/parent::button","desc":"Archive selected version button","eArray":[{"name":"xpath=.//*[contains(text(),'Archive Selected')]/parent::button","key":"key"}]}
+button.unarchive.selected.version={"locator":"xpath=.//*[contains(text(),'Unarchive Selected')]/parent::button","desc":"Unarchive selected version button","eArray":[{"name":"xpath=.//*[contains(text(),'Unarchive Selected')]/parent::button","key":"key"}]}
+check.box.show.only.archived.version={"locator":"xpath=.//*[text()[normalize-space() = 'Show Only Archived']]/input[@type='checkbox']","desc":"Show only archived version check box","eArray":[{"name":"xpath=.//*[text()[normalize-space() = 'Show Only Archived']]/input[@type='checkbox']","key":"key"}]}
+comment.value.list={"locator":"xpath=.//*[contains(@class,'comment')]//*[contains(@class,'text-value')]","desc":"Comment value list","eArray":[{"name":"xpath=.//*[contains(@class,'comment')]//*[contains(@class,'text-value')]","key":"key"}]}
+button.review.entity={"locator":"xpath=.//*[text()='Review']/parent::button","desc":"Review entity button","eArray":[{"name":"xpath=.//*[text()='Review']/parent::button","key":"key"}]}
+button.review.accept={"locator":"xpath=.//button[text()='Review']","desc":"Review accept button","eArray":[{"name":"xpath=.//button[text()='Review']","key":"key"}]}
+button.approve.entity={"locator":"xpath=.//*[text()='Approve']/parent::button","desc":"Review entity button","eArray":[{"name":"xpath=.//*[text()='Approve']/parent::button","key":"key"}]}
+button.approve.accept={"locator":"xpath=.//button[text()='Approve']","desc":"Review accept button","eArray":[{"name":"xpath=.//button[text()='Approve']","key":"key"}]}
+text.my.dashboard.spanish={"locator":"xpath=.//div[text()='Mi tablero']","desc":"My dashboard text spanish","eArray":[{"name":"xpath=","key":"xpath"},{"name":"xpath=.//div[text()='Mi tablero']","key":"xpath"}]}
+button.new.spanish={"locator":"xpath=.//button[text()='Nuevo' and contains(@title,'Cre')]","desc":"'New' Button Spanish","eArray":[{"name":"xpath=.//button[text()='Nuevo' and contains(@title,'Cre')]","key":"xpath"}]}
+link.test.case.table.spanish={"locator":"xpath=.//*[text()[normalize-space() = 'Enlace Casos de prueba']]/parent::div/following-sibling::*//table","desc":"link test case table spanish","eArray":[{"name":"xpath=.//*[text()[normalize-space() = 'Enlace Casos de prueba']]/parent::div/following-sibling::*//table","key":"xpath"}]}
+button.refresh.spanish={"locator":"xpath=.//*[@title='Actualizar' and not(@hidden)]","desc":"Refresh button spanish","eArray":[{"name":"xpath=.//*[@title='Actualizar' and not(@hidden)]","key":"xpath"}]}
+dropdown.values={"locator":"xpath=.//p-multiselectitem/li","desc":"List of drop down values","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//p-multiselectitem/li","key":"xpath"}]}
+table.execution.run={"locator":"xpath=.//*[text()='Execution Runs']/parent::*/following-sibling::*//table","desc":"Execution run table","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[text()='Execution Runs']/parent::*/following-sibling::*//table","key":"xpath"}]}
+button.cancel.execution.runs.window={"locator":"xpath=.//*[text()='Execution Runs']/parent::*/following-sibling::*//*[text()='Cancel']","desc":"Cancel execution window button","eArray":[{"name":"xpath=.//","key":"xpath"},{"name":"xpath=.//*[text()='Execution Runs']/parent::*/following-sibling::*//*[text()='Cancel']","key":"xpath"}]}
+header.QQBot.prediction={"locator":"xpath=.//*[text()[normalize-space() = 'QQbot Prediction']]","desc":"QQbot prediction header","eArray":[{"name":"xpath=.//","key":"xpath"},{"name":"xpath=.//*[text()='QQbot Prediction']","key":"xpath"}]}
+button.close.QQBot.prediction.section={"locator":"xpath=.//*[text()[normalize-space() = 'QQbot Prediction']]/ancestor::section/preceding-sibling::*//*","desc":"Close QQBot prediction section button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[text()[normalize-space() = 'QQbot Prediction']]/ancestor::section/preceding-sibling::*//*","key":"xpath"}]}
+button.download.export.file={"locator":"xpath=(.//*[contains(@class,'fa-download')])[1]","desc":"Download export file button","eArray":[{"name":"xpath=","key":"xpath"},{"name":"xpath=(.//*[contains(@class,'fa-download')])[1]","key":"xpath"}]}
+button.insert.image={"locator":"xpath=.//button[@title='Insert Image']","desc":"Insert image button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//button[@title='Insert Image']","key":"xpath"}]}
+button.upload.image={"locator":"xpath=.//popover-container//*[contains(@class,'fa-upload')]/parent::*","desc":"Upload image button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[contains(@class,'fa-upload')]/parent::*","key":"xpath"},{"name":"xpath=.//popover-container//*[contains(@class,'fa-upload')]/parent::*","key":"xpath"}]}
+button.link.image={"locator":"xpath=.//popover-container//*[contains(@class,'fa-link')]/parent::*","desc":"Link image button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//popover-container//*[contains(@class,'fa-link')]/parent::*","key":"xpath"}]}
+input.image.url={"locator":"xpath=.//popover-container//*[@id='imageURLInput']","desc":"Image URl text box","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//popover-container//*[@id='imageURLInput']","key":"xpath"}]}
+button.submit.image.url={"locator":"xpath=.//popover-container//*[@type='submit']","desc":"Submit image URL button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//popover-container//*[@type='submit']","key":"xpath"}]}
+uploading.image.text={"locator":"xpath=.//popover-container//*[text()='Uploading Image']","desc":"Uploading image text","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//popover-container//*[text()='Uploading Image']","key":"xpath"}]}
+button.create.shareable.testcase={"locator":"xpath=.//*[text()='Create Shareable Test Case']/parent::button","desc":"Create shareable testcase button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[text()='Create Shareable Test Case']/parent::button","key":"xpath"}]}
+button.download.file={"locator":"xpath=(.//*[contains(@class,'fa-file')])[1]","desc":"Download file button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=(.//*[contains(@class,'fa-file')])[1]","key":"xpath"}]}
+button.cancel.arrange.columns={"locator":"xpath=.//*[contains(@class,'arrange-icon')]/following-sibling::*//button[text()='Cancel']","desc":"Arrange column cancel button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[contains(@class,'arrange-icon')]/following-sibling::*//button[text()='Cancel']","key":"xpath"}]}
+input.arrange.column.name={"locator":"xpath=.//*[contains(@class,'arrange-icon')]/following-sibling::*//input[@type='text']","desc":"Arrange column name text box","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[contains(@class,'arrange-icon')]/following-sibling::*//input[@type='text']","key":"xpath"}]}
+button.search={"locator":"xpath=.//button[text()='Search']","desc":"Search Button","eArray":[{"name":"xpath=.//button[text()='Search']","key":"xpath"}]}
+button.clear={"locator":"xpath=.//button[text()='Clear']","desc":"clear Button","eArray":[{"name":"xpath=.//button[text()='Clear']","key":"xpath"}]}
+
+button.select.all.columns={"locator":"xpath=.//*[text()='Select All']","desc":"Select all columns button","eArray":[{"name":"xpath=.//*[text()='Restore Defaults']","key":"xpath"},{"name":"xpath=.//*[text()='Select All']","key":"xpath"}]}
+button.clear.all.columns={"locator":"xpath=.//*[contains(@class,'arrange-opt')]//*[text()='Clear All']","desc":"Clear all columns button","eArray":[{"name":"xpath=.//*[text()='Restore Defaults']","key":"xpath"},{"name":"xpath=.//*[text()='Clear All']","key":"xpath"}]}
+input.attachment.url={"locator":"xpath=.//input[@name='url']","desc":"Attachment url text box","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//input[@name='url']","key":"xpath"}]}
+button.attachment.window.close={"locator":"xpath=.//h4[text()='Add Attachment(s)']/following-sibling::*[@aria-label='Close']","desc":"Attachemnt window close button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//h4[text()='Add Attachment(s)']/following-sibling::*[@aria-label='Close']","key":"xpath"}]}
+dropdown.button.entity.version={"locator":"xpath=.//*[contains(@class,'version-selection')]/*","desc":"Entity version drop down button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[contains(@class,'version-selection')]/*","key":"xpath"}]}
+button.edit={"locator":"xpath=.//*[text()='Edit']","desc":"Edit button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[text()='Edit']","key":"xpath"}]}
+header.link.shareable.testcase={"locator":"xpath=.//h4[text()='Link Shareable Test Case']","desc":"Link shareable testcase header","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//h4[text()='Link Shareable Test Case']","key":"xpath"}]}
+table.link.shareable.testcase={"locator":"xpath=.//h4[text()='Link Shareable Test Case']/parent::*/following-sibling::*//table","desc":"Link shareable testcase table","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//h4[text()='Link Shareable Test Case']/parent::*/following-sibling::*//table","key":"xpath"}]}
+button.link.and.close.shareable.testcase={"locator":"xpath=.//h4[text()='Link Shareable Test Case']/parent::*/following-sibling::*//button[text()='Link & Close']","desc":"Link and close shareable testcase button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//h4[text()='Link Shareable Test Case']/parent::*/following-sibling::*//button[text()='Link & Close']","key":"xpath"}]}
+button.no={"locator":"xpath=(.//button[text()[normalize-space() = 'No']])[1]","desc":"No button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=(.//button[text()[normalize-space() = 'No']])[1]","key":"xpath"}]}
+button.clear.sorting={"locator":"xpath=.//*[@title='Clear Sorting']","desc":"Clear ssorting button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[@title='Clear Sorting']","key":"xpath"}]}
+button.cancel={"locator":"xpath=.//*[text()='Cancel']","desc":"Cancel button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[text()='Add']","key":"xpath"},{"name":"xpath=.//*[text()='Cancel']","key":"xpath"}]}
+textarea.version.comment={"locator":"xpath=.//textarea[@name='versioncomment']","desc":"Version comment textarea","eArray":[{"name":"xpath=.//textarea[@name='versioncomment']","key":"xpath"}]}
+button.delete.selected.version={"locator":"xpath=.//*[contains(text(),'Delete Selected')]/parent::button","desc":"Delete selected version button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[contains(text(),'Delete Selected')]/parent::button","key":"xpath"}]}
+button.clear.all.version={"locator":"xpath=.//*[contains(@class,'upper-btn-area')]//*[text()[normalize-space() = 'Clear All']]","desc":"Clear all version button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[contains(@class,'upper-btn-area')]//*[text()[normalize-space() = 'Clear All']]","key":"xpath"}]}
+text.selected.versions={"locator":"xpath=.//*[contains(@class,'upper-btn-area')]//*[text()='Versions']/parent::*","desc":"Selected versions text","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[contains(@class,'upper-btn-area')]//*[text()='Versions']/parent::*","key":"xpath"}]}
+
+
+#adding new locators
+
+button.filter.at.page={"locator":"xpath=.//*[contains(@class,'detail-filter-btn')]//*[contains(@class,'fa fa-filter')]","desc":"filterbutton at pages","eArray":[{"name":"xpath=xpath=.//*[contains(@class,'detail-filter-btn')]//*[contains(@class,'fa fa-filter')]","key":"xpath"},{"name":"xpath=.//*[contains(@class,'detail-filter-btn')]//*[contains(@class,'fa fa-filter')]","key":"xpath"}]}
+select.project.dropdown={"locator":"xpath=.//p-multiselect[@name='selectedProject']","desc":"Project DropDown","eArray":[{"name":"xpath=.//p-multiselect[@name='selectedProject']","key":"xpath"}]}
+filter.popup={"locator":"xpath=.//*[contains(@class,'modal-content ')]//section[contains(@class,'move-div')]","desc":"Filter Popup Form","eArray":[{"name":"xpath=.//*[contains(@class,'modal-content ')]//section[contains(@class,'move-div')]","key":"xpath"}]}
+button.select={"locator":"xpath=.//button[text()='Select']","desc":"select folder","eArray":[{"name":"xpath=.//button[text()='Select']","key":"xpath"}]}
+button.previous.record={"locator":"xpath=.//*[@title='Previous Record']","desc":"Previous Record button","eArray":[{"name":"xpath=.//*[@title='Previous Record']","key":"xpath"}]}
+button.next.record={"locator":"xpath=.//*[@title='Next Record']","desc":"Next Record button","eArray":[{"name":"xpath=.//*[@title='Next Record']","key":"xpath"}]}
+watchers.table={"locator":"xpath=.//*[contains(@class,'modal-body-table')]//table","desc":"Watchers Table","eArray":[{"name":"xpath=.//*[contains(@class,'modal-body-table')]//table","key":"xpath"}]}
+dropdown.toggle.button.watchers.list={"locator":"xpath=.//*[@title='Click to see Watcher(s) List.']","desc":"Watchers list drop down toggle button","eArray":[{"name":"xpath=.//*[@title='Click to see Watcher(s) List.']","key":"xpath"}]}
+button.stop.watching={"locator":"xpath=//*[text()[normalize-space()='Stop watching']]/i","desc":"Stop watching button","eArray":[{"name":"xpath=","key":"xpath"},{"name":"xpath=//*[text()[normalize-space()='Stop watching']]/i","key":"xpath"}]}
+button.start.watching={"locator":"xpath=//*[text()[normalize-space()='Start watching']]/i","desc":"Start watching button","eArray":[{"name":"xpath=//*[text()[normalize-space()='Start watching']]/i","key":"xpath"}]}
+button.icon.eye.slash.pointer={"locator":"xpath=.//*[contains(@class,'fa fa-eye-slash pointer m-r-sm inline ng-star-inserted')]","desc":"Eye slash icon button","eArray":[{"name":"xpath=.//*[contains(@class,'fa fa-eye-slash pointer m-r-sm inline ng-star-inserted')]","key":"xpath"}]}
+button.icon.eye.pointer={"locator":"xpath=.//*[contains(@class,'fa fa-eye pointer m-r-sm inline ng-star-inserted')]","desc":"Eye pointer icon button","eArray":[{"name":"xpath=.//*[contains(@class,'fa fa-eye pointer m-r-sm inline ng-star-inserted')]","key":"xpath"}]}
+dropdown.button.manage.watchers={"locator":"xpath=.//*[text()[normalize-space()='Manage Watchers']]","desc":"manage watchers button","eArray":[{"name":"xpath=.//*[text()[normalize-space()='Manage Watchers']]","key":"xpath"}]}
+button.add.watchers={"locator":"xpath=.//*[text()[normalize-space()='Add Watcher(s)']]","desc":"Add watchers button","eArray":[{"name":"button.add.watchers","key":"key"},{"name":"xpath=.//*[text()[normalize-space()='Add Watcher(s)']]","key":"xpath"}]}
+dropdown.user.list={"locator":"xpath=.//p-multiselect[@name='user']","desc":"user drop down button","eArray":[{"name":"xpath=.//p-multiselect[@name='user']","key":"xpath"}]}
+button.add={"locator":"xpath=.//*[text()[normalize-space()='Add']]","desc":"Add button","eArray":[{"name":"xpath=.//*[text()[normalize-space()='Add']]","key":"xpath"}]}
+button.close.watchers.list={"locator":"xpath=.//*[text()='Watchers']/following-sibling::*//*[@title='Close']","desc":" close button at watchers list","eArray":[{"name":"xpath=.//*[text()='Watchers']/following-sibling::*//*[@title='Close']","key":"xpath"}]}
+label.watchers={"locator":"xpath=.//*[contains(@class,'watcher-prev')]","desc":"watchers label","eArray":[{"name":"xpath=.//*[contains(@class,'watcher-prev')]","key":"xpath"}]}
+button.remove.selected={"locator":"xpath=.//*[text()[normalize-space()='Remove Selected']]","desc":"Remove Selected button ","eArray":[{"name":"xpath=.//*[text()[normalize-space()='Remove Selected']]","key":"xpath"}]}
+popup.filter={"locator":"xpath=.//*[contains(@class,'modal-body-table')]//*[text()='Filter']","desc":"popup filter","eArray":[{"name":"xpath=.//*[contains(@class,'modal-body-table')]//*[text()='Filter']","key":"xpath"}]}
+popup.refresh.btn={"locator":"xpath=.//*[contains(@class,'modal-content')]//*[@title='Refresh']","desc":"popup refresh screen","eArray":[{"name":"xpath=.//*[contains(@class,'modal-content')]//*[@title='Refresh']","key":"xpath"}]}
+button.close.detail.view={"locator":"xpath=.//*[contains(@class,'vmiddle')][@title='Close']","desc":"detail view close button ","eArray":[{"name":"xpath=.//*[contains(@class,'vmiddle')][@title='Close']","key":"xpath"}]}
+button.filter.text={"locator":"xpath=.//*[text()[normalize-space()='Filter']]","desc":"filter text button","eArray":[{"name":"xpath=.//*[text()[normalize-space()='Filter']]","key":"xpath"}]}
+button.ok={"locator":"xpath=.//button[text()[normalize-space() = 'OK']]","desc":"Ok button","eArray":[{"name":"xpath=.//button[text()[normalize-space() = 'OK']]","key":"xpath"}]}
+pagination.item.count.label={"locator":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]","desc":"Total item count label","eArray":[{"name":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]","key":"xpath"}]}
+input.page.limit={"locator":"xpath=.//*[@name='page']","desc":"Input page limit","eArray":[{"name":"xpath=.//*[@name='page']","key":"xpath"}]}
+button.save={"locator":"xpath=.//*[text()='Save']","desc":"Save Button","eArray":[{"name":"xpath=.//*[text()='Save']","key":"xpath"}]}
+initial.count.label={"locator":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]/strong[1]","desc":"Initial count label","eArray":[{"name":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]/strong[1]","key":"xpath"}]}
+total.count.label={"locator":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]/strong[3]","desc":"total count label","eArray":[{"name":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]/strong[3]","key":"xpath"}]}
+page.limit.count.label={"locator":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]/strong[2]","desc":"page limit count label","eArray":[{"name":"xpath=.//*[contains(@class,'inline vmiddle total-item-count')]/strong[2]","key":"xpath"}]}
+button.last.page={"locator":"xpath=.//*[contains(@class,'pagination-last page-item')]/a","desc":"Last page Button","eArray":[{"name":"xpath=.//*[contains(@class,'pagination-last page-item')]/a","key":"xpath"}]}
+button.next.page={"locator":"xpath=.//*[contains(@class,'pagination-next page-item')]/a","desc":"Next page Button","eArray":[{"name":"xpath=.//*[contains(@class,'pagination-next page-item')]/a","key":"xpath"}]}
+button.previous.page={"locator":"xpath=.//*[contains(@class,'pagination-prev page-item')]/a","desc":"Previous page Button","eArray":[{"name":"xpath=.//*[contains(@class,'pagination-prev page-item')]/a","key":"xpath"}]}
+button.first.page={"locator":"xpath=.//*[contains(@class,'pagination-first page-item')]/a","desc":"First page Button","eArray":[{"name":"xpath=.//*[contains(@class,'pagination-first page-item')]/a","key":"xpath"}]}
+button.go.to={"locator":"xpath=.//button[text()='Go To']","desc":"Go TO button","eArray":[{"name":"xpath=.//button[text()='Go To']","key":"xpath"}]}
+input.paging={"locator":"xpath=.//*[contains(@class,'paging-btn')]/input","desc":"Input Paging","eArray":[{"name":"xpath=.//*[contains(@class,'paging-btn')]/input","key":"xpath"}]}
+no.result.found.text={"locator":"xpath=.//*[text()[normalize-space()='No results found']]","desc":"No result Found","eArray":[{"name":"xpath=.//*[text()[normalize-space()='No results found']]","key":"xpath"}]}
+input.user={"locator":"xpath=.//*[@placeholder='User']","desc":"User Input","eArray":[{"name":"xpath=.//*[@placeholder='User']","key":"xpath"}]}
+input.search.user={"locator":"xpath=.//*[contains(@placeholder,'Search.')]","desc":"search User","eArray":[{"name":"xpath=.//*[contains(@placeholder,'Search.')]","key":"xpath"}]}
+button.search.watcher={"locator":"xpath=.//*[contains(@class,'modal-body-table')]//*[text()='Search']","desc":"Search user in watchers list","eArray":[{"name":"xpath=.//*[contains(@class,'modal-body-table')]//*[text()='Search']","key":"xpath"}]}
+button.archive={"locator":"xpath=.//*[@title='Archive']","desc":"Archive button","eArray":[{"name":"xpath=.//*[@title='Archive']","key":"key"}]}
+button.unarchive={"locator":"xpath=.//*[@title='Unarchive']","desc":"Unarchive button","eArray":[{"name":"xpath=.//*[@title='Unarchive']","key":"key"}]}
+button.delete={"locator":"xpath=(.//*[@title='Delete'])[2]","desc":"Delete  button","eArray":[{"name":"xpath=(.//*[@title='Delete'])[2]","key":"key"}]}
+input.search.project={"locator":"xpath=.//input[contains(@class,'multiselect')]","desc":"Search in drop down","eArray":[{"name":"xpath=.//input[contains(@class,'multiselect')]","key":"xpath"}]}
+input.filter.summary.at.form={"locator":"xpath=.//*[contains(@class,'modal-content')]//*[text()='Summary']/following-sibling::input","desc":"filter by summary","eArray":[{"name":"xpath=.//*[contains(@class,'modal-content')]//*[text()='Summary']/following-sibling::input","key":"xpath"}]}
+filter.at.popup={"locator":"xpath=.//div[@aria-hidden='false']//section[contains(@class,'move-div')]","desc":"Filter section","eArray":[{"name":"xpath=..//div[@aria-hidden='false']//section[contains(@class,'move-div')]","key":"key"}]}
+clear.filter.at.form={"locator":"xpath=.//*[contains(@class,'modal-content')]//*[@title='Clear Filters']","desc":"Clear Filter","eArray":[{"name":"xpath=.//*[contains(@class,'modal-content')]//*[@title='Clear Filters']","key":"xpath"}]}
+add.more.filter.at.form={"locator":"xpath=.//*[contains(@class,'modal-content')]//*[@title='Add More Filters']","desc":"Clear Filter","eArray":[{"name":"xpath=.//*[contains(@class,'modal-content')]//*[@title='Add More Filters']","key":"xpath"}]}
+input.select.attachment={"locator":"xpath=.//input[@id='uploadAttachment']","desc":"Select file text box","eArray":[{"name":"xpath=.//input[@id='uploadAttachment']","key":"key"}]}
+button.submit={"locator":"xpath=.//button[text()='Submit']","desc":"Submit button","eArray":[{"name":"xpath=.//button[text()='Submit']","key":"key"}]}
+button.cancel.at.popup={"locator":"xpath=.//div[@aria-hidden='false']//button[text()='Cancel']","desc":"Cancel button","eArray":[{"name":"xpath=.//div[@aria-hidden='false']//button[text()='Cancel']","key":"key"}]}
+
+
+button.entity.filter={"locator":"xpath=.//*[text()='Filter']","desc":"Entity Filter button","eArray":[{"name":"xpath=.","key":"xpath"},{"name":"xpath=.//*[text()='Filter']","key":"xpath"}]}
+button.cancel.add.new.folder.form={"locator":"xpath=.//*[text()='Add New Folder']/parent::*/following-sibling::*//button[text()='Cancel']","desc":"Cancel add new folder form button"}
+button.cancel.edit.folder.form={"locator":"xpath=.//*[text()='Edit Folder']/parent::*/following-sibling::*//button[text()='Cancel']","desc":"Cancel edit folder form button"}
+breadcrumb.loc={"locator":"xpath=.//ol[contains(@class,'breadcrumb')]","desc":"breadcrumb locator"}
+clone.folder.structure.source.module={"locator":"xpath=(.//label[text()='Source Module'])[1]/following-sibling::*","desc":"Clone folder structure source module"}
+pagination.component={"locator":"xpath=.//paging","desc":"Pagination component"}
+button.detail.filter={"locator":"xpath=.//*[contains(@class,'detail-filter-btn')]/*[contains(@class,'fa-filter')]","desc":"Detail view filter button"}
+component.detail.view.filter={"locator":"xpath=.//section[contains(@class,'basic-detail-page-filter')]","desc":"Detail view filter component"}
+checkbox.entity.detail.window.filter.show.archived={"locator":"xpath=.//*[@name='archive']","desc":"Detail filter show archived checkbox"}
+button.submit.attachments={"locator":"xpath=.//h4[contains(text(),'Attachments')]/parent::*/following-sibling::*//button[text()='Submit']","desc":"Submit attachment button"}
+loader.attachments.dialog.box={"locator":"xpath=.//h4[contains(text(),'Attachments')]/parent::*/following-sibling::loader","desc":"Attachment dialog box loader"}
+table.attachments.dialog.box={"locator":"xpath=.//h4[contains(text(),'Attachments')]/parent::*/following-sibling::*//table","desc":"Attachment dialog box table"}
+button.close.attachments.dialog.box={"locator":"xpath=.//h4[contains(text(),'Attachments')]/parent::*//*[@title='Close']","desc":"Close attachment dialog box button"}
+
+text.highlight.date.calender={"locator":"xpath=.//*[contains(@class,'p-datepicker p-component')]//*[contains(@class,'p-element') and contains(@class,'p-highlight')]","desc":"Close attachment dialog box button"}
+select.calender.month={"locator":"xpath=.//*[contains(@class,'p-datepicker p-component')]//select[contains(@class,'p-datepicker-month')]","desc":"Close attachment dialog box button"}
+select.calender.year={"locator":"xpath=.//*[contains(@class,'p-datepicker p-component')]//select[contains(@class,'p-datepicker-year')]","desc":"Close attachment dialog box button"}
+
+button.request.change={"locator":"xpath=.//*[contains(@class,'tooltip')]//button[@title='Request change']","desc":"Request change button"}
+header.request.change={"locator":"xpath=.//h4[text()='Request change']","desc":"Request change header"}
+textarea.request.change.additional.remark={"locator":"xpath=.//h4[text()='Request change']/parent::*/following::*//label[text()='Additional remarks']/following-sibling::*//textarea","desc":"Request change additional remarks text area"}
+button.request.change.accept={"locator":"xpath=.//h4[text()='Request change']/parent::*/following::*//button[text()='Request change']","desc":"Request change accept button"}
+
+check.box.show.archived.records={"locator":"xpath=.//*[@name='archive']","desc":"Show archived records check box"}
+datatable={"locator":"xpath=.//table-chart","desc":"data table section"}
+select.all.btn={"locator":"xpath=.//*[text()='Select All']","desc":"Select All btn"}
+clear.all.btn={"locator":"xpath=.//*[text()='Clear All'][not(@hidden)]","desc":"CLear All btn"}
+pagination.item.count.label.at.detail.view={"locator":"xpath=.//*[contains(@class,'inner-steps-pagination')]//*[contains(@class,'inline vmiddle total-item-count')]","desc":"Total item count label"}
+initial.count.label.at.detail.view={"locator":"xpath=.//*[contains(@class,'inner-steps-pagination')]//*[contains(@class,'inline vmiddle total-item-count')]/strong[1]","desc":"Initial count label"}
+total.count.label.at.detail.view={"locator":"xpath=.//*[contains(@class,'inner-steps-pagination')]//*[contains(@class,'inline vmiddle total-item-count')]/strong[3]","desc":"total count label"}
+page.limit.count.label.at.detail.view={"locator":"xpath=.//*[contains(@class,'inner-steps-pagination')]//*[contains(@class,'inline vmiddle total-item-count')]/strong[2]","desc":"page limit count label"}
+button.save.arrange.step.columns={"locator":"xpath=.//div[@aria-hidden='false']//button[text()='Save']","desc":"save arrange column button","eArray":[{"name":"xpath=.//button[text()='Save']","key":"key"}]}
+button.restore.default.step.columns={"locator":"xpath=.//div[@aria-hidden='false']//*[text()='Restore Defaults']","desc":"Restore default column button","eArray":[{"name":"xpath=.//*[text()='Restore Defaults']","key":"key"}]}
+button.finish={"locator":"xpath=.//*[text()[normalize-space() = 'Finish']]","desc":"Finish button"}
+menu.sidebar={"locator":"xpath=.//*[contains(@class,'sidebar-nav')]","desc":"menu sidebar scroll"}
+collapse.menu.icon={"locator":"xpath=.//*[@title='Collapse']","desc":"collapse menu icon"}
+expand.menu.icon={"locator":"xpath=.//*[@title='Expand']","desc":"Expand menu icon"}
+attachment.preview={"locator":"xpath=.//*[contains(@class,'preview')]","desc":"Attachemnt preview"}
+download.attachment.btn={"locator":"xpath=.//*[@title='Download']","desc":"download attachment"}
+delete.attachment.btn={"locator":"xpath=.//*[contains(@class,'item-actions')]//*[@title='Delete']","desc":"delete attachment"}
+close.preview.attachment.btn={"locator":"xpath=.//*[contains(@class,'mediaViewPopUpActions')]//*[@title='Close']","desc":"close preview attachment"}
+pdf.at.preview={"locator":"xpath=.//*[body]//*[@type='application/pdf']","desc":"pdf preview locator"}
+next.attachment.page={"locator":"xpath=.//*[@class='page-link'][text()='2']","desc":"Next Attachemnt page"}
+qqbot.prediction.auto.display.switch={"locator":"xpath=.//*[contains(@title,'QQbot prediction to auto-display')]","desc":"qqbot prediction switch"}
+input.qqbot.prediction.switch={"locator":"xpath=.//*[contains(@title,'QQbot prediction to auto-display')]/input","desc":"qqbot prediction input"}
+text.match.percent.loc={"locator":"xpath=.//*[contains(@class,'match-percent')]","desc":"Match percent text locator"}
+qqbot.loc={"locator":"xpath=.//*[@title='QQBot']","desc":"QQBOT"}
+button.clear.table.sorting={"locator":"xpath=.//*[contains(@class,'arrange-columns')]//*[@title='Clear Sorting']","desc":"Clear table sorting button"}
+button.clear.table.filter={"locator":"xpath=.//*[contains(@class,'arrange-columns')]//*[@title='Clear Filter Values']","desc":"Clear table filter button"}
+button.move.folder={"locator":"xpath=.//button[text()='Move']","desc":"Move folder button"}
+button.copy.folder={"locator":"xpath=.//button[text()='Copy']","desc":"Copy folder button"}
+button.close.accept={"locator":"xpath=.//h4[text()='Close']/parent::*/following-sibling::*//button[text()='Close']","desc":"Close accept button","eArray":[{"name":"xpath=.//h4[text()='Close']/parent::*/following-sibling::*//button[text()='Close']","key":"key"}]}
+component.detail.view.tab.filter={"locator":"xpath=.//section[contains(@class,'basic-detail-page-filter')]","desc":"Detail view tab filter component"}
+button.link.by.entity.key={"locator":"xpath=.//*[text()='Link By Entity Key']/parent::button","desc":"Link by entity key button"}
+button.edit.source.comment={"locator":"xpath=.//button[@title='Edit Source']","desc":"Edit source button"}
+button.project.mapping.filter={"locator":"xpath=.//*[text()='Project mapping']/parent::*/following-sibling::*//*[text()='Filter']","desc":"Project mapping filter button"}
+input.project.mapping.project.name={"locator":"xpath=.//*[text()='Project mapping']/parent::*/following-sibling::*//input[@placeholder='Project name']","desc":"Project mapping project name text box"}
+button.project.mapping.project.search={"locator":"xpath=.//*[text()='Project mapping']/parent::*/following-sibling::*//button[text()='Search']","desc":"Project mapping project search button"}
+button.select.filter.folder={"locator":"xpath=.//*[@id='choose-folder' and @aria-hidden='false']//button[text()='Select']","desc":"Select filter folder button"}
+
+textarea.rich.text.editor={"locator":"xpath=.//*[@id='ngxEditorTextarea']","desc":"Rich text editor textarea"}
+list.mentioned.user={"locator":"xpath=.//mention-list//li","desc":"Mentioned user list"}
+button.check.comment.rich.text.editor={"locator":"xpath=.//comments//inline-editor-text/following-sibling::*//*[contains(@class,'fa-check')]/parent::button","desc":"Mentioned user list"}
+header.share.entity={"locator":"xpath=.//*[contains(@class,'share-link')]/*/*[text()=' Share ']","desc":"Share entity header"}
+input.share.entity.email={"locator":"xpath=.//*[contains(@class,'share-link')]/form//label[text()='Email Address']/following-sibling::*[contains(@class,'email-textbox')]//input","desc":"Share entity email text box"}
+textarea.share.entity.comment={"locator":"xpath=.//*[contains(@class,'share-link')]/form//label[text()='Email Address']/following-sibling::*[contains(@class,'email-textarea')]//label[text()[normalize-space() = 'Message']]/following-sibling::*/textarea","desc":"Share entity comment text area"}
+button.share.entity.copy.link={"locator":"xpath=.//a[@title='Copy Link']","desc":"Share entity copy link button"}
+button.share.entity={"locator":"xpath=.//*[contains(@class,'share-link')]/form//button[text()[normalize-space() = 'Share']]","desc":"Share entity button"}
+label.share.entity.email={"locator":"xpath=.//*[contains(@class,'share-link')]/form//label[text()='Email Address']","desc":"Share entity email text box"}
+approve.btn.at.pop.up={"locator":"xpath=.//*[contains(@class,'modal-footer')]//button[text()='Approve']","desc":"Approve btn at pop up"}
+datatable.at.custom.dashbaord={"locator":"xpath=.//ngx-datatable","desc":"data table at custom dashboard"}
+table.module.at.udf={"locator":"xpath=.//table[contains(@class,'ellipsis-header-design')]","desc":"module table  at udf","eArray":[{"name":"xpath=.//table[contains(@class,'ellipsis-header-design')]","key":"xpath"}]}
+link.table.at.popup={"locator":"xpath=.//*[contains(@class,'link-table')]","desc":"link Table"}
+button.yes.with.text={"locator":"xpath=(.//button[text()[normalize-space() = 'Yes']])[2]","desc":"cancel btn with cancel text"}
+textarea.entity.keys={"locator":"xpath=.//link-entity-keys//textarea[@id='entityKeys']","desc":"Testcase entity keys textarea"}
+button.link.entity.keys.at.popup={"locator":"xpath=.//link-entity-keys//button[text()='Link']","desc":"Testcase entity keys link button"}
+button.reset.attachment={"locator":"xpath=.//*[text()='Reset']","desc":"Reset Button"}
+testcase.tab.at.search={"locator":"xpath=.//*[contains(text(),'Test Case (')]/parent::*","desc":"testcase tab at searchz"}
+button.request.change.at.bulk.operation.btn={"locator":"xpath=.//button[text()='Request change']","desc":"Request change button"}
+button.downlaod.all={"locator":"xpath=.//*[text()='Download All']","desc":"Download All button"}
+insert.link.btn={"locator":"xpath=.//*[@title='Insert Link']","desc":"Insert link btn"}
+input.url.link={"locator":"xpath=.//input[@id='URLInput']","desc":"url link txt box"}
+input.url.txt={"locator":"xpath=.//input[@id='urlTextInput']","desc":"url text txt box"}
+checkbox.open.in.new.tab={"locator":"xpath=.//*[text()='Open in new tab']/preceding-sibling::*[@id='urlNewTab']","desc":"open in new tab check box"}
+checkBox.skip.duplicate.linkage={"locator":"xpath=.//*[@id='skipDuplicateLinkage']","desc":"skip Duplicate Linkage checkBox"}
+link.button={"locator":"xpath=.//button[text()='Link']","desc":"Link Button"}
+
+testcase.tab.at.search={"locator":"xpath=.//*[contains(text(),'Test Case (')]/parent::*","desc":"testcase tab at searchz"}
+button.link.testcase.model.arrange.column={"locator":"xpath=.//h4[text()[normalize-space() = 'Link Test Cases']]/parent::*/following-sibling::*//div[@title='Arrange Columns']","desc":"Link testcase to testsuite arrange column button"}
+button.link.issues.model.arrange.column={"locator":"xpath=.//h4[text()='Link Issues']/parent::*/following-sibling::*//div[@title='Arrange Columns']","desc":"Link testcase to testsuite arrange column button"}
+button.close.link.issues.window={"locator":"xpath=.//*[text()='Link Issues']/following-sibling::*/*[@title='Close']","desc":"Link testcases to testsuite cancel window button"}
+button.assign.issues.model.arrange.column={"locator":"xpath=.//h4[text()='Issues']/parent::*/following-sibling::*//div[@title='Arrange Columns']","desc":"Link testcase to testsuite arrange column button"}
+button.link.testsuite.model.arrange.column={"locator":"xpath=.//h4[text()='Link Test Suites']/ancestor::*[contains(@class,'modal-header')]/following-sibling::*//div[@title='Arrange Columns']","desc":"Link testcase to testsuite arrange column button"}
+button.close.link.testsuites.window={"locator":"xpath=.//*[text()='Link Test Suites']/parent::*/following-sibling::*/*[@title='Close']","desc":"Link testcases to testsuite cancel window button"}
+button.close.link.testcases.window={"locator":"xpath=.//h4[text()[normalize-space() = 'Link Test Cases']]/following-sibling::*/*[@title='Close']","desc":"Link testcases to testsuite cancel window button"}
+button.link.issues.model.clear.sorting={"locator":"xpath=.//h4[text()='Link Issues']/parent::*/following-sibling::*//*[@title='Clear Sorting']","desc":"Link issues model clear sorting button"}
+button.assign.issues.to.testrun.model.clear.sorting={"locator":"xpath=.//h4[text()='Issues']/parent::*/following-sibling::*//*[@title='Clear Sorting']","desc":"Link issues model clear sorting button"}
+button.close.execution.runs.window={"locator":"xpath=.//h4[text()='Execution Runs']/following-sibling::*/*[@title='Close']","desc":"Cancel execution window button","eArray":[{"name":"xpath=.//","key":"xpath"},{"name":"xpath=.//h4[text()='Execution Runs']/following-sibling::*/*[@title='Close']","key":"xpath"}]}testcase.tab.at.search={"locator":"xpath=.//*[contains(text(),'Test Case (')]/parent::*","desc":"testcase tab at searchz"}
+button.request.change.at.bulk.operation.btn={"locator":"xpath=.//button[text()='Request change']","desc":"Request change button"}
+
+button.close.execution.runs.window={"locator":"xpath=.//h4[text()='Execution Runs']/following-sibling::*/*[@title='Close']","desc":"Cancel execution window button","eArray":[{"name":"xpath=.//","key":"xpath"},{"name":"xpath=.//h4[text()='Execution Runs']/following-sibling::*/*[@title='Close']","key":"xpath"}]}
+
+button.link.requirements.model.arrange.column={"locator":"xpath=.//h4[text()='Link Requirements']/parent::*/following-sibling::*//div[@title='Arrange Columns']","desc":"Link requirements arrange column button"}
+button.close.link.requirement.window={"locator":"xpath=.//*[text()='Link Requirements']/following-sibling::*/*[@title='Close']","desc":"Link testcases to testsuite cancel window button"}
+input.arrange.column.field={"locator":"xpath=.//*[@title='Arrange Columns' and @aria-expanded='true']/following-sibling::ul//input[@placeholder='Contains...']","desc":"Restore default column button","eArray":[{"name":"xpath=.//*[@title='Arrange Columns' and @aria-expanded='true']/following-sibling::ul//input[@placeholder='Contains...']","key":"key"}]}
+header.select.requirenmts={"locator":"xpath=.//requirements//*[text()='Select Requirements']","desc":"Select requirements header"}
+header.select.testcases={"locator":"xpath=.//test-cases//*[text()='Select Test Cases']","desc":"Select testcses header"}
+button.select.apply={"locator":"xpath=.//button[text()='Apply']","desc":"Apply button"}
+help.list.info={"locator":"xpath=.//*[contains(@class,'help-list info')]/*","desc":"Help list info"}
+header.fs.test.executions.and.issues={"locator":"xpath=.//app-test-execution-issues/*/h4[text()='Test Executions and Issues']","desc":"Flaky score test executions and issues header"}
+button.fs.test.executions.and.issues.window={"locator":"xpath=.//app-test-execution-issues//h4/following-sibling::*/*[@title='Close']","desc":"Flaky score test executions and issues window close button"}
+button.link.testcase.model.refresh={"locator":"xpath=.//h4[text()='Link Test Cases']/parent::*//*[@title='Refresh']","desc":"Link testcase model refresh button"}
+app.testcase.detail.view.flaky.score={"locator":"xpath=.//breadcrumb//app-flaky-score/*[@title]","desc":"Testcase detail view flaky score app"}
+app.testcase.detail.view.success.rate={"locator":"xpath=.//breadcrumb//app-success-rate/*[@title]","desc":"Testcase detail view flaky score app"}
+text.permission.to.access.this.module={"locator":"xpath=.//*[contains(text(),'have permission to access this module. Please contact your admin')]","desc":"Oops! You don't have permission to access this module. Please contact your admin text"}
+text.alert.dialog.message={"locator":"xpath=.//h2[text()='Alert']/following-sibling::*[@id='swal2-html-container']","desc":"Oops! You don't have permission to access this module. Please contact your admin text"}
+button.alert.dialog.no={"locator":"xpath=.//h2[text()='Alert']/following-sibling::*[@id='swal2-html-container']/following-sibling::*[contains(@class,'actions')]/button[contains(@class,'cancel') and text()='No']","desc":"Oops! You don't have permission to access this module. Please contact your admin text"}
+button.alert.dialog.yes={"locator":"xpath=.//h2[text()='Alert']/following-sibling::*[@id='swal2-html-container']/following-sibling::*[contains(@class,'actions')]/button[contains(@class,'confirm') and text()='Yes']","desc":"Oops! You don't have permission to access this module. Please contact your admin text"}
+button.unlink.selected={"locator":"xpath=.//*[text()='Unlink Selected']/parent::button","desc":"Unlink selected button"}
+
+drop.down.link.testcase.window.projects={"locator":"xpath=.//h4[text()[normalize-space()='Link Test Cases']]/parent::*/following-sibling::*//p-multiselect[@name='selectedProject']/*","desc":"Unlink selected button"}
+input.link.testcase.window.projects={"locator":"xpath=.//h4[text()='Link Test Cases']/parent::*/following-sibling::*//p-multiselect[@name='selectedProject']//input[@role='textbox']","desc":"Unlink selected button"}
+button.close.execution.runs.window={"locator":"xpath=.//h4[text()='Execution Runs']/following-sibling::*/*[@title='Close']","desc":"Cancel execution window button","eArray":[{"name":"xpath=.//","key":"xpath"},{"name":"xpath=.//h4[text()='Execution Runs']/following-sibling::*/*[@title='Close']","key":"xpath"}]}
+testcase.tab.at.search={"locator":"xpath=.//*[contains(text(),'Test Case (')]/parent::*","desc":"testcase tab at searchz"}
+button.request.change.at.bulk.operation.btn={"locator":"xpath=.//button[text()='Request change']","desc":"Request change button"}
+button.yes.continue={"locator":"xpath=.//*[text()='Yes, Continue']","desc":"Yes continue btn"}
+button.close.announcement.msg={"locator":"xpath=.//*[@id='announcement-bar-msg']/span","desc":"Close announcement msg"}
+input.description={"locator":"xpath=.//*[text()[normalize-space()='Description']]/parent::*//textarea","desc":"Description TextArea"}
+filter.button.at.detail={"locator":"xpath=.//*[@title='Filter']","desc":"Filter Btn At details"}
+header.select.testsuites={"locator":"xpath=.//app-traceby-test-suite//*[text()='Select Test Suites']","desc":"Select testsuites header"}
+list.create.form.label={"locator":"xpath=.//form[@id='addForm']//fieldset//label[contains(@class,'control-label')]","desc":"Create form label list"}
+list.detail.tab.field.label={"locator":"xpath=.//detail-tab//*[@class='text-label']/*","desc":"Create form label list"}
+button.generate.testcase={"locator":"xpath=.//button[@title='Generate Test Cases']","desc":"Generate testcase button"}
+button.generate.details.and.steps={"locator":"xpath=.//button[@title='Generate Details and Steps']","desc":"Generate testcase button"}
+systen.field.section.details.tab={"locator":"xpath=.//*[text()[normalize-space()='System Fields']]/ancestor::*[@role='tab']/parent::*/following-sibling::*","desc":"System Fields section at details tab"}
+table.testcase.expand={"locator":"xpath=.//table[contains(@class,'tc-expand-table')]","desc":"Generate testcase button"}
+loader.change.log.table={"locator":"xpath=.//change-log/loader/following-sibling::*","desc":"Change Log table loader"}
+dropdown.user.list.button={"locator":"xpath=.//div[text()[normalize-space()='User']]","desc":"user drop down button"}
+watcher.table={"locator":"xpath=.//h4[text()='Watchers']/parent::*/following-sibling::*//table","desc":"watcher table section"}
+txt.detail.window.created.on.date={"locator":"xpath=(.//*[@title='Created On']/following-sibling::*//*//*//*)[1]","desc":"detail window created on date text"}
+txt.detail.window.updated.on.date={"locator":"xpath=(.//*[@title='Updated On']/following-sibling::*//*//*//*)[1]","desc":"detail window updated on date text"}
+header.select.folder={"locator":"xpath=.//*[@id='choose-folder' and @aria-hidden='false']//h4[text()='Select Folder']","desc":"Select folder header"}
+txt.detail.window.created.on.user={"locator":"xpath=(.//*[@title='Created On']/following-sibling::*//*//*//*)[3]","desc":"detail window created on user text"}
+txt.detail.window.updated.on.user={"locator":"xpath=(.//*[@title='Updated On']/following-sibling::*//*//*//*)[3]","desc":"detail window updated on user text"}
+txt.detail.window.created.on.complete={"locator":"xpath=.//*[@title='Created On']/following-sibling::*//*//*","desc":"detail window created on complete text"}
+txt.detail.window.updated.on.complete={"locator":"xpath=.//*[@title='Updated On']/following-sibling::*//*//*","desc":"detail window updated on complete text"}
+
+txt.add.attachment.tip.message={"locator":"xpath=.//h4[text()='Add Attachment(s)']/parent::*/following-sibling::*//*[normalize-space(text()='Tip :')]/parent::*[contains(@class,'text-warning')]/following-sibling::*/*","desc":"Add attachment Tip Message"}
+txt.add.attachment.display.message={"locator":"xpath=.//h4[normalize-space(text()='Add Attachment(s)')]/parent::*/following-sibling::*//*[contains(text(), '100')]","desc":"Add attachment Display Message"}
+
+mail.zip.attachment={"locator":"xpath=.//*[@title='attachments.zip']","desc":"Mail Attachment Zip"}
+export.with.comments.check.box={"locator":"xpath=.//*[text()='Additional Export Options']/parent::*/following-sibling::*//*[text() [normalize-space() ='Export issue details with comments']]//*[@name='includeComments']","desc":"Export with Comments check box"}
+

@@ -1,0 +1,28 @@
+{
+    "steps": [
+        {
+            "command": "Request",
+            "element": "",
+            "eArray": [],
+            "input": "GET.rest.admin.project.getinfo",
+            "status": "NotRun",
+            "elementKey": "GET.rest.admin.project.getinfo",
+            "elementDesc": "",
+            "indexColumn": ""
+        }
+    ],
+    "type": "webservice",
+    "capabilities": {
+        "type": "webservice",
+        "apiUrl": "https://testmanagement.qmetry.com/",
+        "baseUrl": "https://testmanagement.qmetry.com/"
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "dbDetails": {},
+    "recordSessionType": "multiple",
+    "tags": [],
+    "shared": false,
+    "executionStatus": "NotRun"
+}

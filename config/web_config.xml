@@ -1,0 +1,207 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Tests" verbose="0" preserve-order="true">
+
+	<test name="ClientRegistration TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ClientRegistrationTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Login TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LoginTestSuite"/>
+		</classes>
+	</test>
+
+	<test name="Project TestSuite-CreateProject" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<include name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Project TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ProjectTestSuite">
+				<methods>
+					<exclude name="project_create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="ExecutionStatus TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ExecutionStatusTestSuite"/>
+		</classes>
+	</test>
+
+	<test name="ManageFieldTestSuite" enabled="true">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ManageFieldTestSuite"></class>
+		</classes>
+	</test>
+
+	<test name="Integration TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IntegrationTestSuite"></class>
+		</classes>
+	</test>
+
+	<test name="RequirementTestSuite-Import" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RequirementTestSuite">
+				<methods>
+					<include name="rq_import" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RequirementTestSuite-Export" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RequirementTestSuite">
+				<methods>
+					<include name="rq_export" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RequirementTestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RequirementTestSuite">
+				<methods>
+					<exclude name="rq_import"></exclude>
+					<exclude name="rq_export"></exclude>
+				</methods>
+				</class>
+		</classes>
+	</test>
+
+	<test name="TestCaseTestSuite-Import" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestCaseTestSuite">
+				<methods>
+					<include name="tc_import"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TestCaseTestSuite-Export" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestCaseTestSuite">
+				<methods>
+					<include name="tc_export" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TestCase TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestCaseTestSuite">
+				<methods>
+					<exclude name="tc_import"></exclude>
+					<exclude name="tc_export"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Issue TestSuite-Import" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IssueTestSuite">
+				<methods>
+					<include name="issue_import" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Issue TestSuite-Export" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IssueTestSuite">
+				<methods>
+					<include name="issue_export" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Issue TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.IssueTestSuite">
+				<methods>
+					<exclude name="issue_import"></exclude>
+					<exclude name="issue_export"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TestSuiteTestSuite-Export" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestSuiteTestSuite">
+				<methods>
+					<include name="createTestSuiteAndVerify" />
+					<include name="exportTestSuiteAndVerify" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TestSuite TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.TestSuiteTestSuite" >
+				<methods>
+					<exclude name="createTestSuiteAndVerify" />
+					<exclude name="exportTestSuiteAndVerify" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Datagrid TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.DataGridTestSuite" />
+		</classes>
+	</test>
+
+	<test name="User TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.UserTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Role TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.RoleTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Lists TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.ListsTestSuite" />
+		</classes>
+	</test>
+
+	<test name="Ldap TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LdapSamlTestSuite">
+				<methods>
+					<include name="ldap_test_save" />
+					<include name="ldap_remove"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="SAML TestSuite" enabled="false">
+		<classes>
+			<class name="com.qmetry.tests.web.sanity.LdapSamlTestSuite">
+				<methods>
+					<include name="SaveSAMLAndVerify" />
+					<include name="RemoveSAMLAndVerify" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
