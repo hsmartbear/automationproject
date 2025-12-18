@@ -31,4 +31,4 @@ jobs:
             --header 'project: VIT' \
             --header 'apikey: pt7itF28wVMONoU6LzEuPmdef1AMzSCuAm7byDGw' \
             --form entityType=JUNIT \
-            --form file=@results/Scenario1.xml
+            --form file=@results/Scenario7.xml
