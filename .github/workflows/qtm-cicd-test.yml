@@ -27,7 +27,7 @@ jobs:
         run: |
           echo "Uploading Scenario1.xml..."
            curl --silent --show-error --write-out "\nStatus: %{http_code}\nResponse:\n%{response_body}" \
-            --location 'https://testmanagement.qmetry.com/rest/import/createandscheduletestresults/1' \
+            --location 'https://testmanagemen.qmetry.com/rest/import/createandscheduletestresults/1' \
             --header 'project: VIT' \
             --header 'apikey: pt7itF28wVMONoU6LzEuPmdef1AMzSCuAm7byDGw' \
             --form entityType=JUNIT \
