@@ -11,24 +11,24 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-  - name: Create results folder
-    run: mkdir -p results
+      - name: Create results folder
+        run: mkdir -p results
       
       - name: Show file info
         run: ls -lh results/
 
-      - name: Check testng-results.xml exists
+      - name: Check junit-results.xml exists
         run: |
-          if [ ! -f "results/Scenario1.xml" ]; then
+          if [ ! -f "results/Scenario7.xml" ]; then
             echo "❌ File does not exist!"
           exit 1
           fi
           echo "✅ File found:"
-          ls -lh results/Scenario1.xml
+          ls -lh results/Scenario7.xml
 
       - name: Upload Junit Results to QMetry
         run: |
-          echo "Uploading Scenario1.xml..."
+          echo "Uploading Scenario7.xml..."
            curl --silent --show-error --write-out "\nStatus: %{http_code}\nResponse:\n%{response_body}" \
             --location 'https://testmanagement.qmetry.com/rest/import/createandscheduletestresults/1' \
             --header 'project: VIT' \
