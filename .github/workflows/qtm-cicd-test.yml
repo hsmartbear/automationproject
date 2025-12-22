@@ -11,6 +11,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+  - name: Create results folder
+    run: mkdir -p results
+      
       - name: Show file info
         run: ls -lh results/
 
